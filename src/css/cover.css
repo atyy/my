@@ -1,0 +1,96 @@
+
+/* 报告封面主体 */
+.cover-wrap{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+.cover-cnt{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5%;
+}
+.cover-wrap:after{
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	visibility: hidden;
+	height: 100%;
+}
+.cover-icon{
+  width: 40px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+  background-size: 35px;
+}
+.cover-txt{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+.cover-title{
+  font-size: 18px;
+  color: #f2f2f2;
+}
+.cover-num{
+  font-size: 14px;
+  color: #f2f2f2;
+}
+
+
+/* 健康风险  封面 */
+.cover-wrap.reports_1{
+  background-image: url(/static/img/reports/cover_2_1_bg.png);
+}
+.cover-wrap.reports_1 .cover-icon{
+  background-image: url(/static/img/reports/cover_2_1_icon.png);
+}
+
+
+/* 罕见疾病  封面 */
+.cover-wrap.reports_2{
+  background-image: url(/static/img/reports/cover_2_2_bg.png);
+}
+.cover-wrap.reports_2 .cover-icon{
+  background-image: url(/static/img/reports/cover_2_2_icon.png);
+}
+
+
+/* 药物反应  封面 */
+.cover-wrap.reports_3{
+  background-image: url(/static/img/reports/cover_2_3_bg.png);
+}
+.cover-wrap.reports_3 .cover-icon{
+  background-image: url(/static/img/reports/cover_2_3_icon.png);
+}
+
+
+/* 运动健身  封面 */
+.cover-wrap.reports_4{
+  background-image: url(/static/img/reports/cover_2_4_bg.png);
+}
+.cover-wrap.reports_4 .cover-icon{
+  background-image: url(/static/img/reports/cover_2_4_icon.png);
+}
+
+
+/* 饮食营养  封面 */
+.cover-wrap.reports_5{
+  background-image: url(/static/img/reports/cover_2_5_bg.png);
+}
+.cover-wrap.reports_5 .cover-icon{
+  background-image: url(/static/img/reports/cover_2_5_icon.png);
+}
+
+
+/* 体质特征  封面 */
+.cover-wrap.reports_6{
+  background-image: url(/static/img/reports/cover_2_6_bg.png);
+}
+.cover-wrap.reports_6 .cover-icon{
+  background-image: url(/static/img/reports/cover_2_6_icon.png);
+}

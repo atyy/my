@@ -1,0 +1,93 @@
+
+
+/* 主体 */
+.reports-3-wrap.reports_3 .myMultiple .current{
+  background: #E89692;
+  color: #fff;
+}
+
+
+
+/* 报告介绍 */
+.introduce{
+  padding: 0 20px;
+}
+.introduce .block{
+  margin: 20px 0;
+}
+.introduce .block .in-title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.introduce .block .in-title span{
+  display: inline-block;
+  border: 1px solid #E49592;
+  color: #787878;
+  font-size: 13px;
+  border-radius: 30px;
+  padding: 3px 0;
+  width: 100px;
+}
+.introduce .block .in-cnt{
+  color: #787878;
+  letter-spacing: 2px;
+  font-size: 14px;
+  background: rgba(231, 231, 231, 0.14);
+  padding: 20px;
+  border-top: 1px solid #f4f3f3;
+  border-bottom: 1px solid #f4f3f3;
+  word-break:break-all;
+}
+
+
+
+/* 检测基因 */
+.sub_wrap ul li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.sub_wrap ul li:last-child {
+    border: 0;
+}
+.sub_wrap .icon{
+    width: 9px;
+    height: 9px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: background .5s ease;
+    transition: background .5s ease;
+}
+.sub_wrap .icon.reports_3{
+    background: #E89692;
+}
+.sub_wrap .name_en{
+    color: #747474;
+    width: 100px;
+    font-size: 14px;
+}
+.sub_wrap .about{
+    color: #747474;
+    font-size: 14px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.sub_wrap .coverImg{
+    width: 100%;
+    display: block;
+}

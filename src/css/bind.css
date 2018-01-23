@@ -1,0 +1,76 @@
+html{
+	
+}
+.form-cnt{
+	padding: 10px;
+}
+.form-cnt ul *{
+	font-size: 13px !important;
+}
+.bind-btn{
+	margin: 10px 0;
+}
+.hide{
+	opacity: 0;
+}
+.show{
+	opacity: 1;
+}
+.required{
+	color: red;
+}
+.barcode_form{
+	position: relative;
+}
+.input_state{
+	position: absolute;
+    top: 10px;
+    right: 10px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */  
+	color: #969696; 
+}  
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+	color: #969696; 
+}  
+::-moz-placeholder { /* Mozilla Firefox 19+ */  
+	color: #969696;  
+}  
+:-ms-input-placeholder { /* Internet Explorer 10+ */  
+	color: #969696;  
+}  
+input:-webkit-autofill { /* 谷歌浏览器-文本框边框阴影遮住了背景颜色浅黄*/  
+	color: #969696;  
+}  
+.header{
+	height: 50px;
+}
+.logo{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.logo img{
+    width: 110px;
+    height: 31px;
+    margin-top: 10px;
+}
+
+/*验证码*/
+.captcha_wrap{
+	position: relative;
+}
+.captcha_ico{
+	position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 13.5px;
+    left: 13.5px;
+}
+.captcha_input{
+	margin-left: 30px;
+}

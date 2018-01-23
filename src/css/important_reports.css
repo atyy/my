@@ -1,0 +1,265 @@
+
+/* 全局样式 */
+body{
+	background: #fff;
+}
+.important-reports-wrap .img {
+	display: block;
+	width: 100%;
+}
+.important-reports-wrap .reports ul{
+    padding: 30px 25px;
+}
+.important-reports-wrap .reports ul li{
+    position: relative;
+    margin-bottom: 25px;
+}
+.important-reports-wrap .da{
+    color: #c0c0c0;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: left;
+    z-index: -1;
+    top: 3px;
+    font-size: 15px;
+}
+.important-reports-wrap .block{
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.important-reports-wrap .font{
+    font-size: 15px;
+    color: #5b5b5b;
+    max-width: 100px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.important-reports-wrap .cnt{
+    display: inline-block;
+    background: #fff;
+}
+.important-reports-wrap .container{
+    position: relative;
+}
+.important-reports-wrap .inb{
+    display: inline-block;
+    vertical-align: middle;
+}
+.important-reports-wrap .avat-wrap{
+    position: relative;
+    margin-bottom: 70px;
+}
+.important-reports-wrap .myavat{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -50px;
+}
+.important-reports-wrap .defaultavat{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -50px;
+    background: url(/static/img/important_reports/avat_default.png) no-repeat #fff;
+    background-size: 60px;
+    background-position: center 20px;
+}
+.important-reports-wrap .myname{
+    text-align: center;
+    font-size: 14px;
+    color: #3f3f3f;
+}
+.important-reports-wrap .img2{
+    position: absolute;
+    bottom: -60px;
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    margin-left: -60px;
+}
+.important-reports-wrap .bg-header{
+    margin-bottom: 50px;
+}
+
+
+
+
+/*图片样式单独处理*/
+.important-reports-wrap .im3{
+	padding-left: 15px;
+}
+.important-reports-wrap .im4{
+	position: relative;
+    left: -20px;
+}
+.important-reports-wrap .im6{
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.important-reports-wrap .im7{
+	position: relative;
+    left: -25px;
+}
+
+
+
+/* 健康风险 */
+.important-reports-wrap .reports_1 .cnt{
+    padding-left: 10px;
+    float: right;
+    margin-top: 3px;
+}
+.important-reports-wrap .reports_1 ul li .reports-name{
+    text-align: left;
+    background: #fff;
+    padding-right: 10px;
+}
+.important-reports-wrap .cnt.numb{
+    margin: 0;
+}
+.important-reports-wrap .cnt.numb .reports-val{
+    font-size: 18px;
+    color: #9c9c9c;
+}
+
+/* 罕见疾病 */
+.important-reports-wrap .reports_2 ul li{
+    text-align: center;
+}
+.important-reports-wrap .reports_2 ul li .cnt{
+    padding: 0 10px;
+}
+.important-reports-wrap .reports_2 ul li .name1{
+    background: #9ec46a;
+}
+.important-reports-wrap .reports_2 ul li .name2{
+	margin: 8px auto 0;
+}
+
+
+/* 药物反应 */
+.important-reports-wrap .reports_3{
+	position: relative;
+}
+.important-reports-wrap .reports_3 ul li .cnt {
+    padding-right: 10px;
+}
+.important-reports-wrap .reports_3 ul li .name1{
+    background: #e3918f;
+}
+.important-reports-wrap .reports_3 ul li .name2{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+/* 运动健身 */
+.important-reports-wrap .reports_4 ul li{
+	text-align: right;
+}
+.important-reports-wrap .reports_4 ul li .name{
+    font-size: 15px;
+    color: #5b5b5b;
+    margin-bottom: 5px;
+}
+.important-reports-wrap .reports_4 ul li .val{
+	background: #7dbeb1;
+}
+.important-reports-wrap .reports_4 .cnt{
+    padding-left: 10px;
+}
+
+
+/* 饮食营养 */
+.important-reports-wrap .reports_5 .lside{
+    background: #fff;
+    padding-right: 10px;
+    width: 55%;
+}
+.important-reports-wrap .reports_5 .rside{
+    width: 45%;
+}
+.important-reports-wrap .reports_5 .side{
+	display: inline-block;
+	vertical-align: top;
+}
+.important-reports-wrap .reports_5 ul{
+    font-size: 0;
+}
+.important-reports-wrap .reports_5 ul li {
+    text-align: right;
+}
+.important-reports-wrap .reports_5 ul li .name1{
+    background: #edbd94;
+}
+.important-reports-wrap .reports_5 ul li .name2{
+    margin-top: 2px;
+    font-size: 15px;
+    color: #5b5b5b;
+    padding-right: 10px;
+}
+
+
+/* 体质特征 */
+.important-reports-wrap .reports_6 ul li{
+	text-align: center;
+    margin-bottom: 30px;
+}
+.important-reports-wrap .reports_6 ul li .cnt {
+    padding: 0 10px;
+}
+.important-reports-wrap .reports_6 ul li .name1{
+    margin: 0 auto 2px;
+}
+.important-reports-wrap .reports_6 ul li .name2{
+	background: #659bc9;
+    padding: 3px 15px;
+}
+
+
+/* 加载 */
+.important-reports-wrap .loading{
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.important-reports-wrap .loading img{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.important-reports-wrap .loading:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.important-reports-wrap .fade-enter-active, .fade-leave-active {
+  transition: opacity .8s
+}
+.important-reports-wrap .fade-enter, .fade-leave-to /* .fade-leave-active in below version 2.1.8 */ {
+  opacity: 0
+}

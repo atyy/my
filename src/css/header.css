@@ -1,0 +1,51 @@
+/* 头部 */
+.header{
+    height: 50px;
+}
+.logo{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.logo img{
+    width: 110px;
+    height: 31px;
+    margin-top: 10px;
+}
+.logo .back{
+    background: url(/static/img/back.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    background-position: 15px;
+    background-size: 20px;
+    position: absolute;
+    left: 0;
+}
+.logo .back:after{
+    content: '';
+    width: 1px;
+    height: 26px;
+    background: #bcbcbc;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.logo .explain{
+    height: 24px;
+    position: absolute;
+    top: 13px;
+    line-height: 24px;
+    border: 1px solid #9ca041;
+    padding: 0 5px;
+    border-radius: 2px;
+    right: 13px;
+    color: #9ca041;
+}
+.logo .explain:active{
+    background: #c1c558;
+    border: 1px solid #c1c558;
+    color: #fff;
+}

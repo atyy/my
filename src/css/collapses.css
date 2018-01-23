@@ -1,0 +1,559 @@
+.link{
+  
+}
+/* 普通手风琴 */
+.collapse-wrap .collapse-ico{
+    width: 11px;
+    height: 11px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: background .5s ease;
+    transition: background .5s ease;
+}
+.collapse-header{
+    padding: 14px 12px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.collapse-sub-list .collapse-name{
+    color: #d0d0d0;
+}
+.collapse-name{
+    color: #9c9c9c;
+    font-size: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.collapse-name.in{
+  color: #383838;
+}
+
+
+.collapse-rotated {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.collapse-rotated:after {
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    background: url(/static/img/arrow-down.svg) no-repeat;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background-size: 10px;
+    background-position: center;
+}
+.collapse-header-cnt {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.collapse-desc{
+    margin-right: 10px;
+    color: #7ecb28;
+    font-size: 13px;
+    margin-left: 30px;
+}
+.collapse-multiple{
+    margin-right: 10px;
+    color: #7ecb28;
+    font-size: 13px;
+    margin-left: 30px;
+}
+.collapse-wrap.is-active .collapse-rotated:after,.collapse-wrap.is-active .collapse-rotated:before{
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.collapse-content{
+    position: relative;
+    overflow: hidden;
+}
+.sub-collapse{
+    border-top: 1px solid #eee;
+}
+.sub-collapse ul li{
+    position: relative;
+    padding: 10px 15px;
+}
+.sub-collapse ul li:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+    
+.sub-collapse ul li:active{
+    background: #f4f4f4;
+}
+.sub-collapse .sub-name{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.sub-collapse-cnt .sub-name, .sub-collapse-cnt .sub-multiple{
+    color: #9c9c9c;
+    font-size: 15px;
+}
+.sub-collapse-cnt .sub-name.in{
+    color: #383838;  
+}
+
+
+.sub-collapse-cnt .sub-multiple{
+    width: 120px;
+    text-align: right;
+    margin-left: 25px;
+}
+.sub-collapse-cnt .sub-multiple-numb{
+  font-size: 18px;
+  color: #9c9c9c;
+}
+
+.sub-collapse-cnt.isAttention .sub-name{
+    color: rgb(228, 114, 114);
+}
+.sub-collapse-cnt.isAttention .sub-multiple, .sub-collapse-cnt.isAttention .sub-multiple-numb{
+    color: rgb(228, 114, 114);
+}
+.solution{
+    background: #f4f4f4;
+}
+.collapse-wrap {
+    background-color: #fff;
+    margin: 5px 0;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #f1f1f1;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.collapse-wrap.noSub {
+    background: #f6f4f4;
+    border: 0;
+}
+.collapse-header-cnt.isAttention .collapse-name{
+    color: rgb(237, 99, 99);
+}
+    
+
+
+.collapse-header:active{
+  background-color: rgb(245, 244, 244);
+}
+.collapse-wrap.is-active .collapse-ico{
+  background: #71c7ff;
+}
+
+.sub-collapse-cnt{
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+.sub-collapse-cnt.center{
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.slide-fade-enter-active {
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+}
+.slide-fade-leave-active {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+@keyframes show
+{
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes show
+{
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+  }
+}
+
+/* 手风琴无一级分类样式 */
+.collapse-sub-list{
+
+}
+.collapse-sub-list .collapse-sub-item{
+  padding: 14px 12px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background-color: #fff;
+  margin: 5px 0;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #f1f1f1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+    
+
+
+
+
+
+
+/* 手风琴  第二层 报告图标颜色 */
+.collapse-wrap.reports_1 .collapse-ico{
+    background: #C178A7;
+}
+.collapse-wrap.reports_2 .collapse-ico{
+    background: #A3C768;
+}
+.collapse-wrap.reports_3 .collapse-ico{
+    background: #E89692;
+}
+.collapse-wrap.reports_4 .collapse-ico{
+    background: #80C2B8;
+}
+.collapse-wrap.reports_5 .collapse-ico{
+    background: #F1C095;
+}
+.collapse-wrap.reports_6 .collapse-ico{
+    background: #64A1CF;
+}
+
+
+/* 手风琴  第三层  模块主题颜色 */
+.collapse-custom-wrap.reports_1 .collapse-custom-rotated{
+    background: #C178A7;
+}
+.collapse-custom-wrap.reports_1 .collapse-custom-header:after{
+    background: #C178A7;
+}
+.collapse-custom-wrap.reports_2 .collapse-custom-rotated{
+    background: #A3C768;
+}
+.collapse-custom-wrap.reports_2 .collapse-custom-header:after{
+    background: #A3C768;
+}
+.collapse-custom-wrap.reports_3 .collapse-custom-rotated{
+    background: #E89692;
+}
+.collapse-custom-wrap.reports_3 .collapse-custom-header:after{
+    background: #E89692;
+}
+.collapse-custom-wrap.reports_4 .collapse-custom-rotated{
+    background: #80C2B8;
+}
+.collapse-custom-wrap.reports_4 .collapse-custom-header:after{
+    background: #80C2B8;
+}
+.collapse-custom-wrap.reports_5 .collapse-custom-rotated{
+    background: #F1C095;
+}
+.collapse-custom-wrap.reports_5 .collapse-custom-header:after{
+    background: #F1C095;
+}
+.collapse-custom-wrap.reports_6 .collapse-custom-rotated{
+    background: #64A1CF;
+}
+.collapse-custom-wrap.reports_6 .collapse-custom-header:after{
+    background: #64A1CF;
+}
+
+
+
+
+/* 自定义手风琴 */
+.collapse-custom-wrap{
+    background-color: #fff;
+    margin: 5px 0;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #f2f2f2;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.collapse-custom-header{
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.collapse-custom-header .collapse-custom-header-cnt{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 12px;
+}
+.collapse-custom-header .collapse-custom-header-cnt .collapse-custom-name{
+    color: #8e8e8e;
+    font-weight: bold;
+    font-size: 17px;
+}
+.collapse-custom-header .collapse-custom-rotated{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 0;
+    right: 0;
+    border-radius: 100% 0 0 0;
+}
+.collapse-custom-header .collapse-custom-rotated:before, .collapse-custom-header .collapse-custom-rotated:after{
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.collapse-custom-header .collapse-custom-rotated:before {
+    content: '';
+    width: 8px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+}
+.collapse-custom-header .collapse-custom-rotated:after {
+    content: '';
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.collapse-custom-wrap.is-active .collapse-custom-rotated:before{
+    background: #e2e2e2;
+}
+
+.collapse-custom-wrap.is-active .collapse-custom-rotated:after{
+    opacity: 0;
+}
+.collapse-custom-wrap .collapse-custom-header:after{
+    content: '';
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    height: 1px;
+    width: 0;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    opacity: 0;
+}
+.collapse-custom-wrap.is-active .collapse-custom-header:after{
+    content: '';
+    width: 100%;
+    opacity: 1;
+}
+.collapse-custom-content .sub-custom-collapse .sub_wrap{
+    line-height: 27px;
+}
+.collapse-custom-content .sub-custom-collapse .sub_wrap ol li{
+    
+}
+.collapse-custom-content .sub-custom-collapse .sub_wrap .sub_cnt{
+    padding: 16px 20px 10px;
+}
+.collapse-custom-content {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+/* 逐条显示 */
+.collapse-wrap:nth-child(1){
+  animation: show .3s;
+  -webkit-animation: show .3s;
+}
+.collapse-wrap:nth-child(2){
+  animation: show .6s;
+  -webkit-animation: show .6s;
+}
+.collapse-wrap:nth-child(3){
+  animation: show .9s;
+  -webkit-animation: show .9s;
+}
+.collapse-wrap:nth-child(4){                                                                                                                                    
+  animation: show 1.2s;
+  -webkit-animation: show 1.2s;
+}
+.collapse-wrap:nth-child(5){
+  animation: show 1.5s;
+  -webkit-animation: show 1.5s;
+}
+.collapse-wrap:nth-child(6){
+  animation: show 1.8s;
+  -webkit-animation: show 1.8s;
+}
+.collapse-wrap:nth-child(7){
+  animation: show 2.1s;
+  -webkit-animation: show 2.1s;
+}
+.collapse-wrap:nth-child(8){
+  animation: show 2.4s;
+  -webkit-animation: show 2.4s;
+}
+.collapse-wrap:nth-child(9){
+  animation: show 2.7s;
+  -webkit-animation: show 2.7s;
+}
+.collapse-wrap:nth-child(10){
+  animation: show 3.0s;
+  -webkit-animation: show 3.0s;
+}
+.collapse-wrap:nth-child(11){
+  animation: show 3.3s;
+  -webkit-animation: show 3.3s;
+}
+.collapse-wrap:nth-child(12){
+  animation: show 3.6s;
+  -webkit-animation: show 3.6s;
+}
+.collapse-wrap:nth-child(13){
+  animation: show 3.9s;
+  -webkit-animation: show 3.9s;
+}
+.collapse-wrap:nth-child(14){
+  animation: show 4.2s;
+  -webkit-animation: show 4.2s;
+}
+.collapse-wrap:nth-child(15){
+  animation: show 4.5s;
+  -webkit-animation: show 4.5s;
+}
+.collapse-wrap:nth-child(16){
+  animation: show 4.8s;
+  -webkit-animation: show 4.8s;
+}
+.collapse-wrap:nth-child(17){
+  animation: show 5.1s;
+  -webkit-animation: show 5.1s;
+}
+.collapse-wrap:nth-child(18){
+  animation: show 5.4s;
+  -webkit-animation: show 5.4s;
+}
+.collapse-wrap:nth-child(19){
+  animation: show 5.7s;
+  -webkit-animation: show 5.7s;
+}
+.collapse-wrap:nth-child(20){
+  animation: show 6.0s;
+  -webkit-animation: show 6.0s;
+}
+.collapse-wrap:nth-child(21){
+  animation: show 6.3s;
+  -webkit-animation: show 6.3s;
+}
+.collapse-wrap:nth-child(22){
+  animation: show 6.6s;
+  -webkit-animation: show 6.6s;
+}
+.collapse-wrap:nth-child(23){
+  animation: show 6.9s;
+  -webkit-animation: show 6.9s;
+}

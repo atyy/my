@@ -1,0 +1,19 @@
+
+
+/* 主体 */
+.reports-3-wrap.reports_6 .myMultiple .current{
+  background: #64A1CF;
+  color: #fff;
+}
+
+
+/* 分类列表 */
+.font span{
+	font-size: 14px;
+  color: #8b8a8a;
+}
+.type-cnt{
+	color: #585858;
+  margin-top: 10px;
+  font-size: 14px;
+}

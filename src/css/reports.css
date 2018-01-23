@@ -1,0 +1,46 @@
+/* 加载 */
+.loading{
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.loading img{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.loading:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .8s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in below version 2.1.8 */ {
+  opacity: 0
+}
+
+
+/* 无报告信息 */
+.nothing{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+.nothing .title{
+    font-size: 16px;
+    color: #b8b8b8;
+    letter-spacing: 1px;
+}
+
+
+

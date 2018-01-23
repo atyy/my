@@ -1,0 +1,114 @@
+.order-list ul li{
+	margin-top: 15px;
+}
+.cart{
+	background: #fff;
+    display: block;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 8px 0px #c9e8e4;
+    box-shadow: 0px 0px 8px 0px #c9e8e4;
+    position: relative;
+}
+.cart .cart_header{
+    padding: 5px 15px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.cart .cart_body{
+    padding: 10px 20px 10px 15px;
+    position: relative;
+}
+.cart .title{
+	font-size: 13px;
+	color: #7d7e7e;
+	width: 120px;
+    display: inline-block;
+}
+.cart .val{
+    font-size: 14px;
+}
+
+.cart .cart_body:after{
+    display: block;
+    font-family: YDUI-INLAY;
+    font-size: .27rem;
+    color: #c9c9c9;
+    content: "\E608";
+    position: absolute;
+    top: 40%;
+    right: 10px;
+}
+.pro_list{
+	display: inline-block;
+	vertical-align: top;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.pro_list span{
+	display: block;
+}
+.filed{
+	margin: 5px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.nothing{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+.nothing .title{
+    font-size: 16px;
+    color: #b8b8b8;
+    letter-spacing: 1px;
+}
+.header{
+    height: 50px;
+}
+.logo{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.logo img{
+    width: 110px;
+    height: 31px;
+    margin-top: 10px;
+}
+.order-list{
+    padding: 0 15px 15px;
+}
+.loading{
+    position: fixed;
+    z-index: 100;
+    top: 50px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.loading img{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.loading:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .8s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in below version 2.1.8 */ {
+  opacity: 0
+}
